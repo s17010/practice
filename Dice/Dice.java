@@ -7,9 +7,9 @@ class Dice {
 			int rand = random.nextInt(20)+1;
 			if (rand == 19) {
 				count++;
-				//System.out.println(rand);
+				System.out.println(rand);
 			}
-			//System.out.println(rand);
+			System.out.println(rand);
 		}
 		double pro = (count / 100)*100;
 		System.out.println("score:" + pro + "%");
